@@ -1,0 +1,64 @@
+#donor_details{
+    display: none !important;
+  }
+
+#lat_long{
+    display: none !important;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-spacing: 0;
+    box-shadow: 0 2px 15px rgba(64, 64, 64, .7);
+    border-radius: 12px 12px 0 0;
+    margin-bottom: 50px;
+  }
+
+  td,
+  th {
+    padding: 10px 16px;
+    text-align: center;
+  }
+
+  th {
+    background-color: #584e46;
+    color: #fafafa;
+    font-family: 'Open Sans', Sans-serif;
+    font-weight: bold;
+  }
+
+  tr {
+    width: 100%;
+    background-color: #fafafa;
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  tr:nth-child(even) {
+    background-color: #eeeeee;
+  }
+
+
+  #accept:link {
+    color: white !important;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:visited {
+    color: pink;
+    background-color: transparent;
+    text-decoration: none;
+  }
+  
+  a:hover {
+    color: red;
+    background-color: transparent;
+    text-decoration: underline;
+  }
+  
+  a:active {
+    color: yellow;
+    background-color: transparent;
+    text-decoration: underline;
+  }
